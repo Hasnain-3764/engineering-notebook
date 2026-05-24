@@ -1,0 +1,56 @@
+{
+  "Docusaurus Blog Post Frontmatter": {
+    "prefix": "blogfront",
+    "body": [
+      "---",
+      "slug: ${1:my-post-slug}",
+      "title: ${2:My Post Title}",
+      "authors: [hasnain]",
+      "tags: [${3:tag1}, ${4:tag2}]",
+      "date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE",
+      "---",
+      "",
+      "<!-- truncate -->",
+      "",
+      "$0"
+    ],
+    "description": "Insert Docusaurus block post frontmatter"
+  },
+  "Docusaurus Doc Frontmatter": {
+    "prefix": "docfront",
+    "body": [
+      "---",
+      "id: ${1:my-doc-id}",
+      "title: ${2:My Doc Title}",
+      "sidebar_position: ${3:1}",
+      "tags: [${4:tag1}, ${5:tag2}]",
+      "---",
+      "",
+      "$0"
+    ],
+    "description": "Insert Docusaurus document frontmatter"
+  },
+  "Math Block": {
+    "prefix": "math",
+    "body": [
+      "$$",
+      "${1:E = mc^2}",
+      "$$",
+      "$0"
+    ],
+    "description": "Insert a LaTeX math block"
+  },
+  "Mermaid Flowchart": {
+    "prefix": "mermaid-flow",
+    "body": [
+      "```mermaid",
+      "flowchart TD",
+      "    A[${1:Start}] --> B{${2:Decision}}",
+      "    B -->|Yes| C[${3:Result 1}]",
+      "    B -->|No| D[${4:Result 2}]",
+      "```",
+      "$0"
+    ],
+    "description": "Insert a Mermaid Flowchart"
+  }
+}
