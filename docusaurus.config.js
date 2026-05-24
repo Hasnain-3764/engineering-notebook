@@ -154,6 +154,8 @@ const config = {
           },
           // Blog / Blog
           { to: '/blog', label: '📝 Blog', position: 'left' },
+          // About
+          { to: '/about', label: '👤 About Me', position: 'left' },
 
           // Right side
           {
