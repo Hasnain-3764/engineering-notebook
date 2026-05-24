@@ -2,25 +2,22 @@
 id: intro
 title: Operating Systems
 sidebar_label: Overview
-description: Notes on OS fundamentals — processes, memory, scheduling, file systems, and concurrency.
+description: A home for Mohd. Hasnain's operating systems notes.
 tags: [os, overview]
 ---
 
 # Operating Systems
 
-These notes cover the theory and implementation of operating systems — focused on
-the concepts tested in exams and used in real systems work.
+This section is for operating systems notes, both exam-style fundamentals and real-systems intuition.
 
-## Topics
+## What Will Live Here
 
-| Topic | Key Concepts |
-|---|---|
-| [Process Management](./process-management) | States, PCB, context switch, fork/exec |
-| Memory Management | Virtual memory, paging, segmentation, TLBs |
-| File Systems | Inodes, journaling, VFS |
-| Scheduling | FCFS, SJF, Round Robin, CFS |
-| Concurrency & Deadlocks | Mutex, semaphore, monitors, deadlock conditions |
+- process and thread models
+- scheduling
+- memory management
+- filesystems
+- synchronization and deadlocks
 
-## Reference OS
+## Reference Lens
 
-Most examples use **Linux** (kernel 6.x) since it is open-source and examinable.
+Most examples will probably lean on Linux because it is open, practical, and easy to inspect.

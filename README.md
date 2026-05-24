@@ -1,6 +1,6 @@
-# Engineering Notebook
+# Mohd. Hasnain's Engineering Notebook
 
-> A personal knowledge base and engineering notebook for CS — covering operating systems,
+> A personal engineering notebook for CS — covering operating systems,
 > machine learning, mathematics, Java, systems programming, and Linux.
 
 [![Deploy to GitHub Pages](https://github.com/Hasnain-3764/engineering-notebook/actions/workflows/deploy.yml/badge.svg)](https://github.com/Hasnain-3764/engineering-notebook/actions/workflows/deploy.yml)
@@ -11,8 +11,7 @@
 
 ## What This Is
 
-A public, dark-mode engineering notebook built with Docusaurus.
-Notes are written as derivations + explanations, not just bullet points.
+A personal, low-friction notebook built with Docusaurus.
 
 **Features:**
 - 📐 KaTeX math rendering (inline and display)
@@ -21,7 +20,7 @@ Notes are written as derivations + explanations, not just bullet points.
 - 🌙 Dark mode by default
 - 📱 Mobile responsive
 - 🏷️ Blog tags and categories
-- 📡 RSS feed for the learning log
+- 📡 RSS feed support for future journal posts
 - 🚀 Auto-deploys on every push to `main`
 
 ---
@@ -90,7 +89,7 @@ npm run serve        # Preview the built site locally
 touch docs/machine-learning/transformer-architecture.md
 ```
 
-### Note frontmatter template
+### Minimal note template
 
 ```markdown
 ---
@@ -98,9 +97,6 @@ id: transformer-architecture
 title: Transformer Architecture
 description: Self-attention, positional encoding, and the encoder-decoder stack.
 tags: [ml, transformers, attention, advanced]
-last_update:
-  date: 2024-01-30
-  author: Your Name
 ---
 ```
 
@@ -170,7 +166,7 @@ Every note uses at least:
 - **Concept tag:** `gradient-descent`, `process`, `matrix`, etc.
 - **Difficulty tag:** `beginner`, `intermediate`, `advanced`
 
-Browse all tags at: `/blog/tags`
+Blog tags will appear automatically once journal posts exist.
 
 ---
 
@@ -196,5 +192,5 @@ Browse all tags at: `/blog/tags`
 
 ## License
 
-Content (notes) © Mohd Hasnain — All rights reserved.
+Content (notes) © Mohd. Hasnain — All rights reserved.
 Code (configuration, theme) — MIT License.

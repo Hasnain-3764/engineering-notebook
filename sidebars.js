@@ -21,9 +21,7 @@ const sidebars = {
         type: 'doc',
         id:   'mathematics/intro',
       },
-      items: [
-        'mathematics/linear-algebra-fundamentals',
-      ],
+      items: [],
     },
 
     // ── Operating Systems ─────────────────────────────────────────────────
@@ -34,9 +32,7 @@ const sidebars = {
         type: 'doc',
         id:   'operating-systems/intro',
       },
-      items: [
-        'operating-systems/process-management',
-      ],
+      items: [],
     },
 
     // ── Machine Learning ──────────────────────────────────────────────────
@@ -47,9 +43,7 @@ const sidebars = {
         type: 'doc',
         id:   'machine-learning/intro',
       },
-      items: [
-        'machine-learning/gradient-descent',
-      ],
+      items: [],
     },
 
     // ── Java ──────────────────────────────────────────────────────────────
@@ -60,9 +54,7 @@ const sidebars = {
         type: 'doc',
         id:   'java/intro',
       },
-      items: [
-        'java/concurrency-basics',
-      ],
+      items: [],
     },
 
     // ── Systems Programming ───────────────────────────────────────────────

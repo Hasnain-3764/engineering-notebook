@@ -3,25 +3,21 @@ id: intro
 title: Start Here
 sidebar_label: 🏠 Start Here
 slug: /intro
-description: An introduction to this engineering notebook — what it contains, how it is organized, and how to navigate it.
+description: The front door to Mohd. Hasnain's engineering notebook.
 ---
 
-# Engineering Notebook
-
-> *"If you can't explain it simply, you don't understand it well enough."*
-> — Richard Feynman
+# Start Here
 
 ## What This Is
 
-This is a **public engineering notebook** — a structured, searchable record of everything
-I study as a Computer Science student. It is not a polished tutorial site; it is an
-honest study record with:
+This is **Mohd. Hasnain&apos;s personal engineering notebook**.
 
-- **Derivations** — step-by-step math worked out in full
-- **Diagrams** — Mermaid flowcharts and architecture sketches
-- **Code** — working, annotated snippets
-- **Mistakes** — things I got wrong and why
-- **Concepts** — first-principles explanations
+It is meant to stay lightweight and useful:
+
+- quick notes when something clicks
+- deeper writeups when a topic deserves it
+- math, code, diagrams, and references in one place
+- a public archive that can grow without ceremony
 
 ## How It Is Organized
 
@@ -32,42 +28,29 @@ docs/
 ├── machine-learning/     ← Gradient descent, neural networks, theory
 ├── java/                 ← JVM, concurrency, generics, design patterns
 ├── systems-programming/  ← Memory, system calls, C/C++/Rust low-level
-└── linux/                ← Filesystem, shell, process management
+└── linux/                ← Linux usage, tooling, and systems notes
 ```
 
-The **Learning Log** (blog) is a running journal — short entries about what I studied,
-what confused me, and what clicked.
+The **Journal** is for short progress logs and working thoughts.
 
 ## Navigation Tips
 
 | I want to…                        | Go to…                                    |
 |-----------------------------------|-------------------------------------------|
 | Browse a topic                    | Sidebar on the left                       |
-| See recent study entries          | [Learning Log](pathname:///blog)          |
-| Browse by topic tag               | [Tags](pathname:///blog/tags)             |
+| See recent journal entries        | [Journal](pathname:///blog)               |
 | Start with math fundamentals      | [Mathematics](./mathematics/intro)        |
 | Understand OS concepts            | [Operating Systems](./operating-systems/intro) |
 
-## Naming Convention for Notes
+## Writing Style
 
-All notes follow this pattern:
+For now, the notebook uses Docusaurus content files, which means:
 
-```
-{topic}-{subtopic}.md
-```
+- regular notes are simple `.md` or `.mdx`
+- math can stay in familiar KaTeX/LaTeX syntax
+- code fences, tables, and diagrams work out of the box
 
-Examples:
-- `gradient-descent.md`
-- `process-management.md`
-- `linear-algebra-fundamentals.md`
-- `jvm-internals.md`
-
-## Tagging Strategy
-
-Every note is tagged with at least:
-1. A **domain tag** — `mathematics`, `os`, `ml`, `java`, `systems`, `linux`
-2. A **concept tag** — `gradient-descent`, `process`, `matrix`, etc.
-3. Optionally a **difficulty tag** — `beginner`, `intermediate`, `advanced`
+Later, a browser-based editor or CMS can sit on top of this without changing the site structure.
 
 ## Features
 
@@ -79,4 +62,4 @@ Every note is tagged with at least:
 
 ---
 
-*Start with any domain in the sidebar, then branch into individual notes from the section overview pages.*
+Start with any section in the sidebar and let the notebook grow from there.

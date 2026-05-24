@@ -2,18 +2,18 @@
 id: intro
 title: Systems Programming
 sidebar_label: Overview
-description: Notes on systems programming — memory layout, pointers, system calls, and low-level C/C++/Rust.
+description: A home for Mohd. Hasnain's systems programming notes.
 tags: [systems, c, memory, overview]
 ---
 
 # Systems Programming
 
-Low-level programming notes covering memory layout, system calls, and the bridge between software and hardware.
+This section is for low-level programming notes and anything close to memory, processes, or OS interfaces.
 
-## Topics
+## What Will Live Here
 
-| Topic | Key Concepts |
-|---|---|
-| Memory Layout | Stack, heap, BSS, text segment |
-| Pointers & References | Pointer arithmetic, dangling pointers, ownership |
-| System Calls | `read`, `write`, `mmap`, `brk`, `clone` |
+- memory layout
+- pointers and ownership
+- syscalls
+- debugging tools
+- C/C++/Rust systems notes

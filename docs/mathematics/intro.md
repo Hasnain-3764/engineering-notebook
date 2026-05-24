@@ -2,28 +2,27 @@
 id: intro
 title: Mathematics
 sidebar_label: Overview
-description: Notes on linear algebra, calculus, probability, and discrete mathematics for CS.
+description: A home for Mohd. Hasnain's mathematics notes.
 tags: [mathematics, overview]
 ---
 
-# Mathematics for Computer Science
+# Mathematics
 
-The mathematical foundations of CS. These notes cover the core areas
-most relevant to algorithms, machine learning, systems, and theory.
+This section is for the math that keeps showing up in computer science work:
+linear algebra, calculus, probability, and discrete mathematics.
 
-## Topics Covered
+## What Will Live Here
 
-| Topic | Notes | Key Concepts |
-|---|---|---|
-| Linear Algebra | [Fundamentals](./linear-algebra-fundamentals) | Vectors, matrices, eigenvalues |
-| Calculus | Derivatives | Gradient, chain rule, Taylor series |
-| Probability | Foundations | Bayes, distributions, expectation |
-| Discrete Math | Intro | Logic, sets, graph theory, induction |
+- worked derivations
+- theorem intuition
+- small proof sketches
+- definitions worth revisiting
+- references that are actually useful later
 
-## Why Math Matters for CS
+## Likely Topics
 
-- **ML** depends entirely on linear algebra and calculus
-- **Algorithms** use discrete math and combinatorics for complexity analysis
-- **Cryptography** is number theory
-- **Compilers** use formal languages (automata theory)
-- **Systems** use probability for performance modelling
+- linear algebra
+- multivariable calculus
+- probability
+- discrete math
+- optimization basics

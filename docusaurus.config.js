@@ -10,9 +10,9 @@ import rehypeKatex from 'rehype-katex';
 // ──────────────────────────────────────────────────────────────────────────────
 const GITHUB_USERNAME = 'Hasnain-3764';           // ← your GitHub username
 const REPO_NAME       = 'engineering-notebook';   // ← your repo name
-const SITE_TITLE      = 'Engineering Notebook';
-const TAGLINE         = 'My Blogs · Systems · ML · Math · ';
-const YOUR_NAME       = 'Mohd Hasnain';
+const SITE_TITLE      = "Mohd. Hasnain's Engineering Notebook";
+const TAGLINE         = 'Study notes, learning logs, and working ideas.';
+const YOUR_NAME       = 'Mohd. Hasnain';
 const BASE_URL        = `/${REPO_NAME}/`;
 // ──────────────────────────────────────────────────────────────────────────────
 
@@ -80,12 +80,13 @@ const config = {
         },
 
         blog: {
+          authorsMapPath:      'authors.yml',
           showReadingTime:    true,
           editUrl:            `https://github.com/${GITHUB_USERNAME}/${REPO_NAME}/tree/main/`,
           remarkPlugins:      [remarkMath],
           rehypePlugins:      [rehypeKatex],
           blogTitle:          'Learning Log',
-          blogDescription:    'A running log of what I am learning, mistakes made, and insights gained.',
+          blogDescription:    'Short notes, progress logs, and working thoughts from Mohd. Hasnain.',
           postsPerPage:       10,
           blogSidebarCount:   'ALL',
           blogSidebarTitle:   'All Entries',
@@ -129,7 +130,7 @@ const config = {
       // ── Announcement bar (optional — comment out if unwanted) ──────────────
       announcementBar: {
         id:              'welcome',
-        content:         '⚡ Engineering Notebook — Notes on CS, ML, Systems & Math',
+        content:         "Mohd. Hasnain's personal engineering notebook",
         backgroundColor: '#1a1f2e',
         textColor:       '#7aa2f7',
         isCloseable:     true,
@@ -153,9 +154,6 @@ const config = {
           },
           // Blog / Learning Log
           { to: '/blog', label: '📝 Learning Log', position: 'left' },
-
-          // Divider — tag index
-          { to: '/blog/tags', label: '🏷️ Tags', position: 'left' },
 
           // Right side
           {
@@ -192,7 +190,6 @@ const config = {
             title: 'Site',
             items: [
               { label: 'Learning Log', to: '/blog' },
-              { label: 'Tags',         to: '/blog/tags' },
             ],
           },
         ],
@@ -228,8 +225,8 @@ const config = {
       },
 
       // ── Meta tags for SEO ───────────────────────────────────────────────────
-      metadata: [
-        { name: 'keywords', content: 'cs notes, engineering notebook, machine learning, operating systems, mathematics, java, systems programming, linux' },
+        metadata: [
+        { name: 'keywords', content: 'Mohd. Hasnain, engineering notebook, cs notes, machine learning, operating systems, mathematics, java, systems programming, linux' },
         { name: 'og:type', content: 'website' },
       ],
     }),

@@ -2,21 +2,17 @@
 id: intro
 title: Java
 sidebar_label: Overview
-description: Notes on Java — JVM internals, concurrency, generics, collections, and design patterns.
+description: A home for Mohd. Hasnain's Java notes.
 tags: [java, overview]
 ---
 
 # Java
 
-Deep-dive notes on Java — not beginner syntax, but the internals that matter for writing
-correct, performant, and maintainable code.
+This section is reserved for Java notes that are worth keeping beyond one debugging session.
 
-## Topics
+## What Will Live Here
 
-| Topic | Key Concepts |
-|---|---|
-| [Concurrency Basics](./concurrency-basics) | Threads, locks, synchronized, volatile |
-| JVM Internals | Class loading, JIT, GC |
-| Collections Framework | ArrayList vs LinkedList, HashMap internals |
-| Generics Deep Dive | Type erasure, wildcards, bounds |
-| Streams & Functional | map/filter/reduce, lazy evaluation |
+- concurrency notes
+- JVM behavior
+- language features that are easy to misuse
+- APIs or patterns worth revisiting

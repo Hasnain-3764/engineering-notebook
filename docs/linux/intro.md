@@ -2,19 +2,18 @@
 id: intro
 title: Linux
 sidebar_label: Overview
-description: Practical Linux notes — filesystem, shell scripting, process management, and networking tools.
+description: A home for Mohd. Hasnain's Linux notes.
 tags: [linux, bash, overview]
 ---
 
 # Linux
 
-Practical notes on using and understanding Linux from a CS perspective.
+This section is for practical Linux notes: commands, shell habits, process inspection, networking, and system behavior.
 
-## Topics
+## What Will Live Here
 
-| Topic | Key Concepts |
-|---|---|
-| Filesystem Hierarchy | FHS, inodes, mount points |
-| Shell Scripting | Bash variables, loops, functions, pipelines |
-| Process Management | ps, top, kill, signals, /proc |
-| Networking Commands | ip, ss, curl, netstat, tcpdump |
+- commands worth remembering
+- shell snippets
+- debugging workflows
+- networking notes
+- filesystem and process references

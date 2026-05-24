@@ -55,16 +55,16 @@ const DOMAINS = [
 
 // ── Recent highlights / pinned notes ───────────────────────────────────────
 const HIGHLIGHTS = [
-  { label: 'Gradient Descent Derivation',     href: '/docs/machine-learning/gradient-descent' },
-  { label: 'OS: Process Lifecycle & States',  href: '/docs/operating-systems/process-management' },
-  { label: 'Linear Algebra Fundamentals',     href: '/docs/mathematics/linear-algebra-fundamentals' },
-  { label: 'Java Concurrency Primitives',     href: '/docs/java/concurrency-basics' },
+  { label: 'Start Here',           href: '/docs/intro' },
+  { label: 'Mathematics',          href: '/docs/mathematics/intro' },
+  { label: 'Machine Learning',     href: '/docs/machine-learning/intro' },
+  { label: 'Operating Systems',    href: '/docs/operating-systems/intro' },
 ];
 
 // ── Stats strip ────────────────────────────────────────────────────────────
 const STATS = [
   { value: '6',    label: 'Subjects' },
-  { value: '10+',  label: 'Notes' },
+  { value: 'Fresh', label: 'Notebook' },
   { value: 'Free', label: 'Open Source' },
   { value: 'Dark', label: 'Mode First' },
 ];
@@ -79,7 +79,7 @@ function HeroSection() {
       <div className={styles.heroInner}>
         <div className={styles.heroLabel}>
           <span className={styles.dot} />
-          Personal Knowledge Base
+          Mohd. Hasnain
         </div>
 
         <h1 className={styles.heroTitle}>
@@ -87,8 +87,8 @@ function HeroSection() {
         </h1>
 
         <p className={styles.heroSubtitle}>
-          A public engineering notebook covering CS fundamentals, systems, machine learning,
-          mathematics, and software engineering — organized for deep study and long-term recall.
+          A personal engineering notebook for systems, machine learning, mathematics,
+          Linux, Java, and whatever else I am figuring out in public.
         </p>
 
         <div className={styles.heroActions}>
@@ -96,7 +96,7 @@ function HeroSection() {
             Browse Notes →
           </Link>
           <Link className={clsx('button', styles.btnSecondary)} to="/blog">
-            Learning Log
+            Journal
           </Link>
         </div>
 
@@ -146,8 +146,8 @@ function HighlightsSection() {
   return (
     <section className={clsx(styles.section, styles.highlightSection)}>
       <div className={styles.sectionHeader}>
-        <h2 className={styles.sectionTitle}>📌 Pinned Notes</h2>
-        <p className={styles.sectionSub}>Key concepts worth reading first.</p>
+        <h2 className={styles.sectionTitle}>Start Exploring</h2>
+        <p className={styles.sectionSub}>The notebook is intentionally light right now so new writing can grow cleanly.</p>
       </div>
 
       <ul className={styles.highlightList}>
@@ -163,7 +163,7 @@ function HighlightsSection() {
 
       <div className={styles.highlightFooter}>
         <Link to="/blog" className={styles.seeAll}>
-          See Learning Log →
+          Open Journal →
         </Link>
       </div>
     </section>
@@ -174,17 +174,17 @@ function PhilosophySection() {
   return (
     <section className={styles.section}>
       <div className={styles.philosophyCard}>
-        <h2>📖 Why This Notebook Exists</h2>
+        <h2>Why This Notebook Exists</h2>
         <blockquote className={styles.quote}>
           "The Feynman Technique: learn by writing until you can explain it simply."
         </blockquote>
         <p>
-          This is a public, searchable record of everything I study as a CS student.
-          Notes are written as if I am teaching — with derivations, examples, diagrams,
-          and honest mistakes documented. It serves as both a personal reference and a portfolio.
+          This is Mohd. Hasnain&apos;s public notebook. The goal is to keep writing friction low:
+          capture useful ideas, half-formed understanding, worked examples, and future rabbit holes
+          without forcing every note to feel like a polished article.
         </p>
         <div className={styles.pillRow}>
-          <span className={styles.pill}>✅ Markdown source</span>
+          <span className={styles.pill}>✅ Simple writing flow</span>
           <span className={styles.pill}>✅ KaTeX math</span>
           <span className={styles.pill}>✅ Mermaid diagrams</span>
           <span className={styles.pill}>✅ Syntax highlighted code</span>
@@ -199,7 +199,7 @@ export default function Home() {
   return (
     <Layout
       title="Home"
-      description="A personal engineering notebook covering CS fundamentals, systems, machine learning, and mathematics."
+      description="Mohd. Hasnain's personal engineering notebook."
     >
       <HeroSection />
       <main>
