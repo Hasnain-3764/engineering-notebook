@@ -13,6 +13,28 @@ const sidebars = {
       label: '🏠 Start Here',
     },
 
+    // ── Economics ─────────────────────────────────────────────────────────
+    {
+      type:      'category',
+      label:     '📈 Economics',
+      link: {
+        type: 'doc',
+        id:   'economics/intro',
+      },
+      items: [],
+    },
+
+    // ── Finance ───────────────────────────────────────────────────────────
+    {
+      type:      'category',
+      label:     '💰 Finance',
+      link: {
+        type: 'doc',
+        id:   'finance/intro',
+      },
+      items: [],
+    },
+
     // ── Mathematics ────────────────────────────────────────────────────────
     {
       type:      'category',
