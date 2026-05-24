@@ -1,7 +1,6 @@
 ---
 id: intro
 title: Java
-sidebar_label: Overview
 description: A home for Mohd. Hasnain's Java notes.
 tags: [java, overview]
 ---

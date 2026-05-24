@@ -1,7 +1,6 @@
 ---
 id: intro
 title: Economics
-sidebar_label: Overview
 description: A home for economics notes.
 tags: [economics, overview]
 ---

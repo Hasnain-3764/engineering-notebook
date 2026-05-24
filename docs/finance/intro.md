@@ -1,7 +1,6 @@
 ---
 id: intro
 title: Finance
-sidebar_label: Overview
 description: A home for finance notes.
 tags: [finance, overview]
 ---

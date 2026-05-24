@@ -1,7 +1,6 @@
 ---
 id: intro
 title: Machine Learning
-sidebar_label: Overview
 description: A home for Mohd. Hasnain's machine learning notes.
 tags: [ml, overview]
 ---

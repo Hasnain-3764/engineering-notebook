@@ -1,7 +1,6 @@
 ---
 id: intro
 title: Linux
-sidebar_label: Overview
 description: A home for Mohd. Hasnain's Linux notes.
 tags: [linux, bash, overview]
 ---

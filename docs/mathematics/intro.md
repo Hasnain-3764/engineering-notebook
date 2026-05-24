@@ -1,7 +1,6 @@
 ---
 id: intro
 title: Mathematics
-sidebar_label: Overview
 description: A home for Mohd. Hasnain's mathematics notes.
 tags: [mathematics, overview]
 ---

@@ -1,7 +1,6 @@
 ---
 id: intro
 title: Systems Programming
-sidebar_label: Overview
 description: A home for Mohd. Hasnain's systems programming notes.
 tags: [systems, c, memory, overview]
 ---

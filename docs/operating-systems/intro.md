@@ -1,7 +1,6 @@
 ---
 id: intro
 title: Operating Systems
-sidebar_label: Overview
 description: A home for Mohd. Hasnain's operating systems notes.
 tags: [os, overview]
 ---
