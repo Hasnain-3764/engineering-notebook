@@ -1,0 +1,70 @@
+# .github/workflows/deploy.yml
+# Automatic deployment to GitHub Pages on every push to main.
+# WHY: Eliminates manual deployment — commit → push → site updates automatically.
+#
+# SETUP (one-time):
+#   1. In your GitHub repo: Settings → Pages → Source = "GitHub Actions"
+#   2. That's it. This workflow handles everything else.
+
+name: Deploy Engineering Notebook to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  # Allow triggering manually from the Actions tab
+  workflow_dispatch:
+
+# Set permissions for GitHub Pages deployment
+permissions:
+  contents: read
+  pages:    write
+  id-token: write
+
+# Only allow one deployment at a time; cancel in-progress if new push arrives
+concurrency:
+  group:              "pages"
+  cancel-in-progress: false
+
+jobs:
+  # ── Job 1: Build ────────────────────────────────────────────────────────
+  build:
+    name: Build Docusaurus site
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Full history so "last updated" dates work
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build website
+        run: npm run build
+
+      - name: Upload artifact for deployment
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build/
+
+  # ── Job 2: Deploy ───────────────────────────────────────────────────────
+  deploy:
+    name: Deploy to GitHub Pages
+    needs:       build
+    runs-on:     ubuntu-latest
+    environment:
+      name: github-pages
+      url:  ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id:   deployment
+        uses: actions/deploy-pages@v4
