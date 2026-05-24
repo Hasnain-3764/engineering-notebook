@@ -64,7 +64,7 @@ const HIGHLIGHTS = [
 // ── Stats strip ────────────────────────────────────────────────────────────
 const STATS = [
   { value: '6',    label: 'Subjects' },
-  { value: '50+',  label: 'Notes' },
+  { value: '10+',  label: 'Notes' },
   { value: 'Free', label: 'Open Source' },
   { value: 'Dark', label: 'Mode First' },
 ];
@@ -188,7 +188,6 @@ function PhilosophySection() {
           <span className={styles.pill}>✅ KaTeX math</span>
           <span className={styles.pill}>✅ Mermaid diagrams</span>
           <span className={styles.pill}>✅ Syntax highlighted code</span>
-          <span className={styles.pill}>✅ Full-text search</span>
           <span className={styles.pill}>✅ Open source</span>
         </div>
       </div>

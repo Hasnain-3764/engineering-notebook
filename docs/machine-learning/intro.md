@@ -23,6 +23,6 @@ but **where the formula comes from**.
 
 ## Prerequisite: Math Notes
 
-- [Linear Algebra Fundamentals](/docs/mathematics/linear-algebra-fundamentals) — matrix operations
+- [Linear Algebra Fundamentals](../mathematics/linear-algebra-fundamentals) — matrix operations
 - Calculus — chain rule (essential for backprop)
 - Probability — distributions, expectations

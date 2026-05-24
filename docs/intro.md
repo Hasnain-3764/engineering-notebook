@@ -43,11 +43,10 @@ what confused me, and what clicked.
 | I want to…                        | Go to…                                    |
 |-----------------------------------|-------------------------------------------|
 | Browse a topic                    | Sidebar on the left                       |
-| Find a specific concept           | 🔍 Search bar (top right)                |
-| See recent study entries          | [Learning Log](/blog)                     |
-| Browse by topic tag               | [Tags](/docs/tags)                        |
-| Start with math fundamentals      | [Mathematics](/docs/mathematics/intro)    |
-| Understand OS concepts            | [Operating Systems](/docs/operating-systems/intro) |
+| See recent study entries          | [Learning Log](pathname:///blog)          |
+| Browse by topic tag               | [Tags](pathname:///blog/tags)             |
+| Start with math fundamentals      | [Mathematics](./mathematics/intro)        |
+| Understand OS concepts            | [Operating Systems](./operating-systems/intro) |
 
 ## Naming Convention for Notes
 
@@ -75,10 +74,9 @@ Every note is tagged with at least:
 - **Math rendering** via KaTeX — inline: $E = mc^2$, display: $$\nabla_\theta J(\theta)$$
 - **Code highlighting** for Java, Python, C, Bash, Rust, and more
 - **Mermaid diagrams** for flowcharts, sequence diagrams, and architecture
-- **Full-text search** — no server required
 - **Dark mode** — default
 - **Mobile responsive**
 
 ---
 
-*Start with any domain in the sidebar, or use the search bar to jump directly to a concept.*
+*Start with any domain in the sidebar, then branch into individual notes from the section overview pages.*

@@ -23,9 +23,6 @@ const sidebars = {
       },
       items: [
         'mathematics/linear-algebra-fundamentals',
-        'mathematics/calculus-derivatives',
-        'mathematics/probability-foundations',
-        'mathematics/discrete-math-intro',
       ],
     },
 
@@ -39,10 +36,6 @@ const sidebars = {
       },
       items: [
         'operating-systems/process-management',
-        'operating-systems/memory-management',
-        'operating-systems/file-systems',
-        'operating-systems/scheduling-algorithms',
-        'operating-systems/concurrency-deadlocks',
       ],
     },
 
@@ -56,10 +49,6 @@ const sidebars = {
       },
       items: [
         'machine-learning/gradient-descent',
-        'machine-learning/linear-regression',
-        'machine-learning/neural-networks-basics',
-        'machine-learning/backpropagation',
-        'machine-learning/regularization',
       ],
     },
 
@@ -73,10 +62,6 @@ const sidebars = {
       },
       items: [
         'java/concurrency-basics',
-        'java/jvm-internals',
-        'java/collections-framework',
-        'java/generics-deep-dive',
-        'java/streams-functional',
       ],
     },
 
@@ -88,11 +73,7 @@ const sidebars = {
         type: 'doc',
         id:   'systems-programming/intro',
       },
-      items: [
-        'systems-programming/memory-layout',
-        'systems-programming/pointers-and-references',
-        'systems-programming/system-calls',
-      ],
+      items: [],
     },
 
     // ── Linux ─────────────────────────────────────────────────────────────
@@ -103,12 +84,7 @@ const sidebars = {
         type: 'doc',
         id:   'linux/intro',
       },
-      items: [
-        'linux/filesystem-hierarchy',
-        'linux/shell-scripting',
-        'linux/process-management',
-        'linux/networking-commands',
-      ],
+      items: [],
     },
   ],
 };

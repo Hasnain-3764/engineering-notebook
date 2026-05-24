@@ -262,7 +262,7 @@ pause and resume execution.
 
 ## Related Notes
 
-- [Memory Management](/docs/operating-systems/memory-management) — virtual memory, paging
-- [Scheduling Algorithms](/docs/operating-systems/scheduling-algorithms) — how the Ready queue is managed
-- [Concurrency & Deadlocks](/docs/operating-systems/concurrency-deadlocks) — threads, mutexes, semaphores
-- [Linux: Process Management](/docs/linux/process-management) — practical Linux commands
+- Memory management (planned) — virtual memory, paging
+- Scheduling algorithms (planned) — how the Ready queue is managed
+- Concurrency and deadlocks (planned) — threads, mutexes, semaphores
+- Linux process management commands (planned) — practical command-line workflows

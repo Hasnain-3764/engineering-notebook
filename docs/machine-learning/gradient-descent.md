@@ -228,6 +228,6 @@ Key points:
 
 ## Related Notes
 
-- [Linear Algebra Fundamentals](/docs/mathematics/linear-algebra-fundamentals) — vectors and matrices used here
-- [Neural Networks Basics](/docs/machine-learning/neural-networks-basics) — where this is applied
-- [Backpropagation](/docs/machine-learning/backpropagation) — computing $\nabla_\theta J$ for neural nets
+- [Linear Algebra Fundamentals](../mathematics/linear-algebra-fundamentals) — vectors and matrices used here
+- Neural networks basics (planned) — where this is applied
+- Backpropagation (planned) — computing $\nabla_\theta J$ for neural nets

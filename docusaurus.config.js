@@ -13,17 +13,18 @@ const REPO_NAME       = 'engineering-notebook';   // ← your repo name
 const SITE_TITLE      = 'Engineering Notebook';
 const TAGLINE         = 'My Blogs · Systems · ML · Math · ';
 const YOUR_NAME       = 'Mohd Hasnain';
+const BASE_URL        = `/${REPO_NAME}/`;
 // ──────────────────────────────────────────────────────────────────────────────
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title:   SITE_TITLE,
   tagline: TAGLINE,
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.svg',
 
   // GitHub Pages URL
   url:     `https://${GITHUB_USERNAME}.github.io`,
-  baseUrl: `/${REPO_NAME}/`,
+  baseUrl: BASE_URL,
 
   organizationName: GITHUB_USERNAME,
   projectName:      REPO_NAME,
@@ -46,22 +47,6 @@ const config = {
 
   themes: [
     '@docusaurus/theme-mermaid',
-    // Local full-text search (no Algolia account needed)
-    [
-      '@easyops-cn/docusaurus-search-local',
-      /** @type {import('@easyops-cn/docusaurus-search-local').PluginOptions} */
-      ({
-        hashed:                          true,
-        language:                        ['en'],
-        highlightSearchTermsOnTargetPage: true,
-        explicitSearchResultPath:        true,
-        searchBarPosition:               'right',
-        docsRouteBasePath:               '/docs',
-        blogRouteBasePath:               '/blog',
-        indexBlog:                       true,
-        indexPages:                      true,
-      }),
-    ],
   ],
 
   // ────────────────────────────────────────────────────────────────────────────
@@ -134,8 +119,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/social-card.png',
-
       // ── Colour mode ────────────────────────────────────────────────────────
       colorMode: {
         defaultMode:                'dark',
@@ -172,13 +155,9 @@ const config = {
           { to: '/blog', label: '📝 Learning Log', position: 'left' },
 
           // Divider — tag index
-          { to: '/docs/tags', label: '🏷️ Tags', position: 'left' },
+          { to: '/blog/tags', label: '🏷️ Tags', position: 'left' },
 
           // Right side
-          {
-            type:     'search',
-            position: 'right',
-          },
           {
             href:     `https://github.com/${GITHUB_USERNAME}/${REPO_NAME}`,
             position: 'right',
@@ -206,16 +185,14 @@ const config = {
           {
             title: 'Connect',
             items: [
-              { label: 'GitHub',   href: `https://github.com/${GITHUB_USERNAME}` },
-              { label: 'LinkedIn', href: 'https://linkedin.com/in/yourusername' },
+              { label: 'GitHub', href: `https://github.com/${GITHUB_USERNAME}` },
             ],
           },
           {
             title: 'Site',
             items: [
               { label: 'Learning Log', to: '/blog' },
-              { label: 'Tags',         to: '/docs/tags' },
-              { label: 'RSS Feed',     href: '/blog/rss.xml' },
+              { label: 'Tags',         to: '/blog/tags' },
             ],
           },
         ],

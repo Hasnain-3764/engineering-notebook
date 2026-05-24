@@ -3,25 +3,24 @@
 > A personal knowledge base and engineering notebook for CS — covering operating systems,
 > machine learning, mathematics, Java, systems programming, and Linux.
 
-[![Deploy to GitHub Pages](https://github.com/yourusername/engineering-notebook/actions/workflows/deploy.yml/badge.svg)](https://github.com/yourusername/engineering-notebook/actions/workflows/deploy.yml)
+[![Deploy to GitHub Pages](https://github.com/Hasnain-3764/engineering-notebook/actions/workflows/deploy.yml/badge.svg)](https://github.com/Hasnain-3764/engineering-notebook/actions/workflows/deploy.yml)
 
-**Live site:** https://yourusername.github.io/engineering-notebook
+**Live site:** https://Hasnain-3764.github.io/engineering-notebook
 
 ---
 
 ## What This Is
 
-A public, searchable, dark-mode engineering notebook built with Docusaurus.
+A public, dark-mode engineering notebook built with Docusaurus.
 Notes are written as derivations + explanations, not just bullet points.
 
 **Features:**
 - 📐 KaTeX math rendering (inline and display)
 - 🔷 Mermaid diagrams (flowcharts, state machines, sequence diagrams)
 - 💻 Syntax highlighting for 15+ languages
-- 🔍 Full-text local search (no Algolia needed)
 - 🌙 Dark mode by default
 - 📱 Mobile responsive
-- 🏷️ Tags and categories
+- 🏷️ Blog tags and categories
 - 📡 RSS feed for the learning log
 - 🚀 Auto-deploys on every push to `main`
 
@@ -48,7 +47,6 @@ Notes are written as derivations + explanations, not just bullet points.
 | Hosting | [GitHub Pages](https://pages.github.com/) (free) |
 | Math | [KaTeX](https://katex.org/) via remark-math |
 | Diagrams | [Mermaid](https://mermaid.js.org/) |
-| Search | [@easyops-cn/docusaurus-search-local](https://github.com/easyops-cn/docusaurus-search-local) |
 | CI/CD | [GitHub Actions](https://github.com/features/actions) |
 
 ---
@@ -64,7 +62,7 @@ Notes are written as derivations + explanations, not just bullet points.
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/engineering-notebook.git
+git clone https://github.com/Hasnain-3764/engineering-notebook.git
 cd engineering-notebook
 
 # Install dependencies
@@ -172,7 +170,7 @@ Every note uses at least:
 - **Concept tag:** `gradient-descent`, `process`, `matrix`, etc.
 - **Difficulty tag:** `beginner`, `intermediate`, `advanced`
 
-Browse all tags at: `/docs/tags`
+Browse all tags at: `/blog/tags`
 
 ---
 
@@ -182,7 +180,7 @@ Browse all tags at: `/docs/tags`
 2. Update `url` in `docusaurus.config.js` to `https://notes.yourdomain.com`
 3. Update `baseUrl` to `/`
 4. In GitHub: **Settings → Pages → Custom Domain** → enter your domain
-5. Add a CNAME DNS record at your registrar pointing to `yourusername.github.io`
+5. Add a CNAME DNS record at your registrar pointing to `Hasnain-3764.github.io`
 
 ---
 
@@ -198,5 +196,5 @@ Browse all tags at: `/docs/tags`
 
 ## License
 
-Content (notes) © Your Name — All rights reserved.
+Content (notes) © Mohd Hasnain — All rights reserved.
 Code (configuration, theme) — MIT License.

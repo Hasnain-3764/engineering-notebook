@@ -210,5 +210,5 @@ graph LR
 
 ## Related Notes
 
-- [Gradient Descent](/docs/machine-learning/gradient-descent) — heavy use of linear algebra
-- [Neural Networks Basics](/docs/machine-learning/neural-networks-basics) — weight matrices
+- [Gradient Descent](../machine-learning/gradient-descent) — heavy use of linear algebra
+- Neural networks basics (planned) — weight matrices

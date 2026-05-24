@@ -282,6 +282,6 @@ Thread t2 = new Thread(() -> { synchronized (lockA) { synchronized (lockB) { doW
 
 ## Related Notes
 
-- [OS: Concurrency & Deadlocks](/docs/operating-systems/concurrency-deadlocks) — the OS-level view
-- [Java: JVM Internals](/docs/java/jvm-internals) — how the JMM is implemented
-- [Java: Collections Framework](/docs/java/collections-framework) — thread-safe collections
+- Operating system deadlocks and concurrency (planned) — the OS-level view
+- JVM internals (planned) — how the Java Memory Model is implemented
+- Java collections framework (planned) — thread-safe collections

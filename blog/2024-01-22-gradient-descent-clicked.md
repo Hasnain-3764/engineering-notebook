@@ -2,9 +2,7 @@
 slug: week-1-gradient-descent-clicked
 title: "Week 1: The Moment Gradient Descent Finally Clicked"
 authors:
-  - name: Your Name
-    title: CS Student
-    url: https://github.com/yourusername
+  - hasnain
 date: 2024-01-22
 tags: [ml, gradient-descent, learning-log, mathematics]
 description: What finally made gradient descent click for me — the Taylor expansion interpretation.
@@ -64,7 +62,7 @@ All of them satisfy $\delta^T \nabla J < 0$. They just differ in how they choose
 
 ## Action Items
 
-- [ ] Write the full derivation as a doc note → done: [Gradient Descent](/docs/machine-learning/gradient-descent)
+- [ ] Write the full derivation as a doc note → done: [Gradient Descent](pathname:///docs/machine-learning/gradient-descent)
 - [ ] Understand Newton's method and why it converges faster
 - [ ] Implement Adam from scratch without PyTorch
 
