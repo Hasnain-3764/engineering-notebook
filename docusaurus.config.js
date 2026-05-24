@@ -11,7 +11,7 @@ import rehypeKatex from 'rehype-katex';
 const GITHUB_USERNAME = 'Hasnain-3764';           // ← your GitHub username
 const REPO_NAME       = 'engineering-notebook';   // ← your repo name
 const SITE_TITLE      = "Mohd. Hasnain's Personal Hub";
-const TAGLINE         = 'Engineering, Economics, Finance, and Learning Logs.';
+const TAGLINE         = 'Engineering, Economics, Finance, and Blogs.';
 const YOUR_NAME       = 'Mohd. Hasnain';
 const BASE_URL        = `/${REPO_NAME}/`;
 // ──────────────────────────────────────────────────────────────────────────────
@@ -85,7 +85,7 @@ const config = {
           editUrl:            `https://github.com/${GITHUB_USERNAME}/${REPO_NAME}/tree/main/`,
           remarkPlugins:      [remarkMath],
           rehypePlugins:      [rehypeKatex],
-          blogTitle:          'Learning Log',
+          blogTitle:          'Blog',
           blogDescription:    'Short notes, progress logs, and working thoughts from Mohd. Hasnain.',
           postsPerPage:       10,
           blogSidebarCount:   'ALL',
@@ -93,7 +93,7 @@ const config = {
           routeBasePath:      'blog',
           feedOptions: {
             type:        'all',
-            title:       `${SITE_TITLE} – Learning Log`,
+            title:       `${SITE_TITLE} – Blog`,
             description: `RSS feed for ${SITE_TITLE}`,
             copyright:   `Copyright © ${new Date().getFullYear()} ${YOUR_NAME}`,
           },
@@ -152,8 +152,8 @@ const config = {
             position:  'left',
             label:     '📚 Notes',
           },
-          // Blog / Learning Log
-          { to: '/blog', label: '📝 Learning Log', position: 'left' },
+          // Blog / Blog
+          { to: '/blog', label: '📝 Blog', position: 'left' },
 
           // Right side
           {
@@ -191,7 +191,7 @@ const config = {
           {
             title: 'Site',
             items: [
-              { label: 'Learning Log', to: '/blog' },
+              { label: 'Blog', to: '/blog' },
             ],
           },
         ],
