@@ -10,8 +10,8 @@ import rehypeKatex from 'rehype-katex';
 // ──────────────────────────────────────────────────────────────────────────────
 const GITHUB_USERNAME = 'Hasnain-3764';           // ← your GitHub username
 const REPO_NAME       = 'engineering-notebook';   // ← your repo name
-const SITE_TITLE      = "Mohd. Hasnain's Engineering Notebook";
-const TAGLINE         = 'Study notes, learning logs, and working ideas.';
+const SITE_TITLE      = "Mohd. Hasnain's Personal Hub";
+const TAGLINE         = 'Engineering, Economics, Finance, and Learning Logs.';
 const YOUR_NAME       = 'Mohd. Hasnain';
 const BASE_URL        = `/${REPO_NAME}/`;
 // ──────────────────────────────────────────────────────────────────────────────
@@ -130,7 +130,7 @@ const config = {
       // ── Announcement bar (optional — comment out if unwanted) ──────────────
       announcementBar: {
         id:              'welcome',
-        content:         "Mohd. Hasnain's personal engineering notebook",
+        content:         "Welcome to Mohd. Hasnain's personal notebook and blog",
         backgroundColor: '#1a1f2e',
         textColor:       '#7aa2f7',
         isCloseable:     true,
@@ -172,6 +172,8 @@ const config = {
           {
             title: 'Knowledge Base',
             items: [
+              { label: 'Economics',          to: '/docs/economics/intro' },
+              { label: 'Finance',            to: '/docs/finance/intro' },
               { label: 'Mathematics',        to: '/docs/mathematics/intro' },
               { label: 'Operating Systems',  to: '/docs/operating-systems/intro' },
               { label: 'Machine Learning',   to: '/docs/machine-learning/intro' },

@@ -10,7 +10,21 @@ import styles from './index.module.css';
 // ── Knowledge domain cards ──────────────────────────────────────────────────
 const DOMAINS = [
   {
-    icon:  '📐',
+    icon:  '�',
+    title: 'Economics',
+    desc:  'Macro and microeconomics, supply and demand, markets, and economic theory.',
+    href:  '/docs/economics/intro',
+    tags:  ['markets', 'macro', 'micro'],
+  },
+  {
+    icon:  '💰',
+    title: 'Finance',
+    desc:  'Personal finance, investing, corporate finance, and accounting principles.',
+    href:  '/docs/finance/intro',
+    tags:  ['investing', 'markets'],
+  },
+  {
+    icon:  '�📐',
     title: 'Mathematics',
     desc:  'Linear algebra, calculus, probability, discrete math — the language of CS.',
     href:  '/docs/mathematics/intro',
@@ -63,7 +77,7 @@ const HIGHLIGHTS = [
 
 // ── Stats strip ────────────────────────────────────────────────────────────
 const STATS = [
-  { value: '6',    label: 'Subjects' },
+  { value: '8',    label: 'Subjects' },
   { value: 'Fresh', label: 'Notebook' },
   { value: 'Free', label: 'Open Source' },
   { value: 'Dark', label: 'Mode First' },
@@ -87,8 +101,8 @@ function HeroSection() {
         </h1>
 
         <p className={styles.heroSubtitle}>
-          A personal engineering notebook for systems, machine learning, mathematics,
-          Linux, Java, and whatever else I am figuring out in public.
+          A personal hub for engineering, systems, machine learning, economics,
+          finance, and whatever else I am figuring out in public.
         </p>
 
         <div className={styles.heroActions}>
